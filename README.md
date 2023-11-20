@@ -22,10 +22,10 @@ This is a Python script designed for efficiently downloading `chromedriver` vers
      python download-chromedriver.py --version 120
      ```
 
-   - To download a specific version (e.g., 115.0.5763.0):
+   - To download a specific version (e.g., 116.0.5845.96):
 
      ```bash
-     python download-chromedriver.py --version 115.0.5763.0
+     python download-chromedriver.py --version 116.0.5845.96
      ```
 
 ## Requirements
