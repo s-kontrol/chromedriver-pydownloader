@@ -40,7 +40,7 @@ def download_latest(fdata,ffile,fversion):
         print("No matching versions found.")
 
 url = "https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json"
-version = args.version
+version = args.version if float(args.version) > 115 else exit("Version must be greaer than 116")
 file = f'chrome-driver-{version}.zip'
 
 # script starts!
