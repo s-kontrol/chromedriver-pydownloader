@@ -1,17 +1,33 @@
-# What is this?
+# Chromedriver Downloader
 
-This is a quick python script to download a `chromedriver` version for linux64 distributions.
+## Overview
 
-We can pass a specific version or the major numer.
+This is a Python script designed for efficiently downloading `chromedriver` versions for Linux64 distributions. The script fetches information from [chrome-for-testing](https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json) and allows users to specify a particular version or major number.
 
-# How to use
+**Intended Use:** Primarily for automation purposes.
 
-```python
-pip install -r requirements.txt
-python download-chromedriver.py --version 120
-python download-chromedriver.py --version 115.0.5763.0
-```
+## How to Use
 
-# Requirements.
+1. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Examples of usage:
+
+   - To download `chromedriver` for version 120:
+
+     ```bash
+     python download-chromedriver.py --version 120
+     ```
+
+   - To download a specific version (e.g., 115.0.5763.0):
+
+     ```bash
+     python download-chromedriver.py --version 115.0.5763.0
+     ```
+
+## Requirements
 
 - Python
